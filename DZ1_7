@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanIn = new Scanner(System.in);
+        double a, b, c, P, Q;
+        a = scanIn.nextDouble();
+        b = scanIn.nextDouble();
+        c = scanIn.nextDouble();
+        P = (a + b + c) / 3;
+        Q = Math.sqrt(a * b);
+        System.out.println("(a + b + c) / 2 = " + P + "!");
+        System.out.println("Math.sqrt(a * b * c) = " + Q + "!");
+    }
+}
